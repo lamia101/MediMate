@@ -1,0 +1,6 @@
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PersonalHealthCareApplication" parent="Theme.Material3.Light.NoActionBar">
+
+    </style>
+</resources>

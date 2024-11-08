@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PersonalHealthCareApplication</string>
+    <string-array name="medical_conditions">
+        <item>Diabetes</item>
+        <item>Hypertension</item>
+        <item>Asthma</item>
+        <item>Heart Disease</item>
+        <item>None</item>
+    </string-array>
+
+</resources>

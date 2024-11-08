@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725786782359",
+    "project_id": "personalhealthcareapplication",
+    "storage_bucket": "personalhealthcareapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725786782359:android:7fca0ef0aa870aa58c17d2",
+        "android_client_info": {
+          "package_name": "com.example.personalhealthcareapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC2xPId1wpPpIBYSOWqdstm6UkBQKRjFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

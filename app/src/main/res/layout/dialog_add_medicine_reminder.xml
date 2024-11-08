@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/home3"
+    android:padding="16dp">
+
+<androidx.cardview.widget.CardView
+
+    android:backgroundTint="#B3E9F7F8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Quantity"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spnMedicineType"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/medicine_types"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:focusable="false"
+            android:hint="Reminder Time" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
